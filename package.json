@@ -1,0 +1,35 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "[![Actions Status](https://github.com/aswang/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/aswang/frontend-project-46/actions)",
+  "main": "src/index.js",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aswang/frontend-project-46.git"
+  },
+  "keywords": [],
+  "author": "aswang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aswang/frontend-project-46/issues"
+  },
+  "homepage": "https://github.com/aswang/frontend-project-46#readme",
+  "dependencies": {
+    "commander": "^14.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.34.0",
+    "eslint": "^9.34.0",
+    "globals": "^16.3.0"
+  }
+}
