@@ -1,6 +1,13 @@
-const genDiff = (filepath1, filepath2, format = 'stylish') => {
-  console.log(`Сравниваю: ${filepath1} и ${filepath2}, формат: ${format}`);
-  return 'Функция сравнения пока не реализована';
+import parseFile from './parsers.js';
+
+const genDiff = (filepath1, filepath2) => {
+  const data1 = parseFile(filepath1);
+  const data2 = parseFile(filepath2);
+
+  console.log('File 1:', data1);
+  console.log('File 2:', data2);
+
+  return 'Diff not implemented yet';
 };
 
 export default genDiff;
