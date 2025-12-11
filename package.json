@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/aswang/frontend-project-46#readme",
   "dependencies": {
-    "commander": "^14.0.0"
+    "commander": "^14.0.0",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@eslint/js": "^9.34.0",
