@@ -18,5 +18,5 @@ check: lint test
 gendiff:
 	./bin/gendiff.js -h
 
-
-
+test:
+	NODE_OPTIONS=--experimental-vm-modules npx jest
