@@ -1,5 +1,6 @@
 import formatStylish from './stylish.js'
 import formatPlain from './plain.js'
+import formatJson from './json.js'
 
 const getFormatter = (formatName) => {
   switch (formatName) {
@@ -7,6 +8,8 @@ const getFormatter = (formatName) => {
       return formatStylish
     case 'plain':
       return formatPlain
+    case 'json':
+      return formatJson
     default:
       throw new Error(`Unknown format: ${formatName}`)
   }
